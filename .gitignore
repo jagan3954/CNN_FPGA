@@ -1,0 +1,13 @@
+# Vivado generated folders
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+
+# Logs
+*.log
+*.jou
+*.str
+
+# Temp files
+*.tmp
