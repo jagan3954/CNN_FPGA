@@ -1,0 +1,94 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Thu Feb 12 11:12:56 2026
+| Host         : LAPTOP-KG04ETAN running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file cnn_top_control_sets_placed.rpt
+| Design       : cnn_top
+| Device       : xc7z020
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    16 |
+|    Minimum number of control sets                        |    16 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    38 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    16 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |    10 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     1 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     4 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               6 |            4 |
+| No           | No                    | Yes                    |               1 |            1 |
+| No           | Yes                   | No                     |              23 |            8 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |              20 |            6 |
+| Yes          | Yes                   | No                     |              96 |           31 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+---------------------------------------------+---------------------------------------------+------------------+----------------+--------------+
+|  Clock Signal  |                Enable Signal                |               Set/Reset Signal              | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------+---------------------------------------------+---------------------------------------------+------------------+----------------+--------------+
+|  clk_IBUF_BUFG | conv1_layer/conv1_buf/E[0]                  | conv2_layer/conv2_buf_3/SR[0]               |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG | fully_connected/valid_out_fc_reg_0[0]       | conv2_layer/conv2_buf_3/SR[0]               |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG | conv2_layer/conv2_buf_3/h_idx[4]_i_1__1_n_0 | conv2_layer/conv2_buf_3/SR[0]               |                2 |              5 |         2.50 |
+|  clk_IBUF_BUFG | conv1_layer/conv1_buf/state_reg_0           | conv2_layer/conv2_buf_3/SR[0]               |                2 |              5 |         2.50 |
+|  clk_IBUF_BUFG | conv1_layer/conv1_buf/h_idx[0]              | conv2_layer/conv2_buf_3/SR[0]               |                1 |              5 |         5.00 |
+|  clk_IBUF_BUFG | conv2_layer/conv2_buf_1/h_idx[4]_i_1_n_0    | conv2_layer/conv2_buf_3/SR[0]               |                1 |              5 |         5.00 |
+|  clk_IBUF_BUFG | conv2_layer/conv2_buf_2/h_idx[4]_i_1__0_n_0 | conv2_layer/conv2_buf_3/SR[0]               |                2 |              5 |         2.50 |
+|  clk_IBUF_BUFG | maxpool_relu_1/E[0]                         | conv2_layer/conv2_buf_3/SR[0]               |                2 |              5 |         2.50 |
+|  clk_IBUF_BUFG | maxpool_relu_1/valid_out_relu_reg_1[0]      | conv2_layer/conv2_buf_3/SR[0]               |                1 |              5 |         5.00 |
+|  clk_IBUF_BUFG | maxpool_relu_1/valid_out_relu_reg_0[0]      | conv2_layer/conv2_buf_3/SR[0]               |                1 |              5 |         5.00 |
+|  clk_IBUF_BUFG |                                             |                                             |                4 |              6 |         1.50 |
+|  clk_IBUF_BUFG |                                             | conv1_layer/conv1_buf/buf_idx[7]_i_1__2_n_0 |                4 |              8 |         2.00 |
+|  clk_IBUF_BUFG |                                             | conv2_layer/conv2_buf_3/SR[0]               |                5 |             16 |         3.20 |
+|  clk_IBUF_BUFG | comparator/max_val[11]_i_1_n_0              | conv2_layer/conv2_buf_3/SR[0]               |                5 |             16 |         3.20 |
+|  clk_IBUF_BUFG | maxpool_relu_2/E[0]                         | conv2_layer/conv2_buf_3/SR[0]               |                6 |             16 |         2.67 |
+|  clk_IBUF_BUFG | maxpool_relu_1/valid_out_2                  | conv2_layer/conv2_buf_3/SR[0]               |               12 |             36 |         3.00 |
++----------------+---------------------------------------------+---------------------------------------------+------------------+----------------+--------------+
+
+
