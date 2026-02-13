@@ -60,7 +60,7 @@
     <Option Name="IPStaticSourceDir" Val="$PIPUSERFILESDIR/ipstatic"/>
     <Option Name="EnableBDX" Val="FALSE"/>
     <Option Name="DSABoardId" Val="pynq-z2"/>
-    <Option Name="WTXSimLaunchSim" Val="23"/>
+    <Option Name="WTXSimLaunchSim" Val="32"/>
     <Option Name="WTModelSimLaunchSim" Val="0"/>
     <Option Name="WTQuestaLaunchSim" Val="0"/>
     <Option Name="WTIesLaunchSim" Val="0"/>
@@ -107,7 +107,61 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/new/comparator_1.v">
+      <File Path="$PSRCDIR/sources_1/new/4_0.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/conv2d_weight_3.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/conv1_weight_3.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/fc_bias.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/conv2d_weight_2.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/conv2_weight_33.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/7_0.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/fc_out_value.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/elaborate.log"/>
+      <File Path="$PSRCDIR/sources_1/new/conv2_weight_32.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/out_conv1_value_2.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/out_mp1_value_1.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/conv1_weight_1.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/conv2_weight_1.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/out_conv1_value_1.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/conv2_weight_2.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/conv2_weight_31.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/5_0.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/out_conv2_value_1.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/conv2d_1_weight_1.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/1_0.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/input_1000.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/out_mp1_value_2.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/out_mp2_value_2.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/conv1_weight_2.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/conv2_weight_3.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/8_0.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/conv2d_1_bias.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/out_mp2_value_1.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/out_mp2_value_3.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/conv2_weight_21.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/conv2d_bias.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/9_0.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/out_mp1_value_3.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/conv2_weight_13.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/2_0.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/compile.log"/>
+      <File Path="$PSRCDIR/sources_1/new/conv2_weight_22.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/6_0.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/conv2d_1_weight_3.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/out_conv1_value_3.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/out_conv2_value_3.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/fc_in_value.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/conv1_bias.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/conv2_weight_12.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/conv2d_1_weight_2.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/out_conv2_value_2.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/3_0.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/fc_weight.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/conv2_weight_11.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/0_0.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/conv2d_weight_1.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/conv2_bias.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/conv2_weight_23.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/comp_f.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -170,7 +224,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../Download/CNN-Implementation-in-Verilog-master/CNN-Implementation-in-Verilog-master/cnn_verilog/fully_connected.v">
+      <File Path="$PSRCDIR/sources_1/new/fully_connected_f.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
