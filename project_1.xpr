@@ -60,7 +60,7 @@
     <Option Name="IPStaticSourceDir" Val="$PIPUSERFILESDIR/ipstatic"/>
     <Option Name="EnableBDX" Val="FALSE"/>
     <Option Name="DSABoardId" Val="pynq-z2"/>
-    <Option Name="WTXSimLaunchSim" Val="23"/>
+    <Option Name="WTXSimLaunchSim" Val="51"/>
     <Option Name="WTModelSimLaunchSim" Val="0"/>
     <Option Name="WTQuestaLaunchSim" Val="0"/>
     <Option Name="WTIesLaunchSim" Val="0"/>
@@ -99,6 +99,25 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+      <File Path="$PSRCDIR/sources_1/new/fc_bias.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/elaborate.log"/>
+      <File Path="$PSRCDIR/sources_1/new/out_conv1_value_2.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/out_mp1_value_1.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/out_conv1_value_1.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/out_conv2_value_1.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/input_1000.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/out_mp1_value_2.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/out_mp2_value_2.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/out_mp2_value_1.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/out_mp2_value_3.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/conv2d_bias.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/out_mp1_value_3.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/compile.log"/>
+      <File Path="$PSRCDIR/sources_1/new/out_conv1_value_3.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/out_conv2_value_3.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/fc_in_value.txt"/>
+      <File Path="$PSRCDIR/sources_1/new/out_conv2_value_2.txt"/>
+      <File Path="$PPRDIR/../../../Download/img.txt"/>
       <File Path="$PPRDIR/../../../Download/CNN-Implementation-in-Verilog-master/CNN-Implementation-in-Verilog-master/cnn_verilog/top_tb.v">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
@@ -107,7 +126,33 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/new/comparator_1.v">
+      <File Path="$PSRCDIR/sources_1/new/cnn_pl_top.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/cnn_fpga_tb_top.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../../fr_ip/component.xml">
+        <FileInfo SFType="IPXACT"/>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/CNN_top.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/comp_f.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -170,7 +215,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../Download/CNN-Implementation-in-Verilog-master/CNN-Implementation-in-Verilog-master/cnn_verilog/fully_connected.v">
+      <File Path="$PSRCDIR/sources_1/new/fully_connected_f.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -184,7 +229,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/new/CNN_top.v">
+      <File Path="$PSRCDIR/sources_1/new/cnn_axi_top.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -193,17 +238,49 @@
       </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="cnn_top"/>
+        <Option Name="TopModule" Val="cnn_axis_wrapper"/>
       </Config>
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
       <Filter Type="Constrs"/>
+      <File Path="$PSRCDIR/constrs_1/new/pynq_z2.xdc">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+        </FileInfo>
+      </File>
       <Config>
         <Option Name="ConstrsType" Val="XDC"/>
       </Config>
     </FileSet>
     <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1" RelGenDir="$PGENDIR/sim_1">
       <Filter Type="Srcs"/>
+      <File Path="$PPRDIR/../../../Download/CNN-Implementation-in-Verilog-master/CNN-Implementation-in-Verilog-master/pyTorch/mnist_cnn/conv2_weight_12.txt"/>
+      <File Path="$PPRDIR/../../../Download/CNN-Implementation-in-Verilog-master/CNN-Implementation-in-Verilog-master/pyTorch/mnist_cnn/conv2_bias.txt"/>
+      <File Path="$PPRDIR/../../../Download/CNN-Implementation-in-Verilog-master/CNN-Implementation-in-Verilog-master/pyTorch/mnist_cnn/conv2_weight_23.txt"/>
+      <File Path="$PPRDIR/../../../Download/CNN-Implementation-in-Verilog-master/CNN-Implementation-in-Verilog-master/pyTorch/mnist_cnn/conv2_weight_13.txt"/>
+      <File Path="$PPRDIR/../../../Download/CNN-Implementation-in-Verilog-master/CNN-Implementation-in-Verilog-master/pyTorch/mnist_cnn/conv2_weight_32.txt"/>
+      <File Path="$PPRDIR/../../../Download/CNN-Implementation-in-Verilog-master/CNN-Implementation-in-Verilog-master/pyTorch/mnist_cnn/conv2_weight_21.txt"/>
+      <File Path="$PPRDIR/../../../Download/CNN-Implementation-in-Verilog-master/CNN-Implementation-in-Verilog-master/pyTorch/mnist_cnn/fc_weight.txt"/>
+      <File Path="$PPRDIR/../../../Download/CNN-Implementation-in-Verilog-master/CNN-Implementation-in-Verilog-master/pyTorch/mnist_cnn/conv1_weight_2.txt"/>
+      <File Path="$PPRDIR/../../../Download/CNN-Implementation-in-Verilog-master/CNN-Implementation-in-Verilog-master/pyTorch/mnist_cnn/fc_bias.txt"/>
+      <File Path="$PPRDIR/../../../Download/CNN-Implementation-in-Verilog-master/CNN-Implementation-in-Verilog-master/pyTorch/mnist_cnn/conv2_weight_11.txt"/>
+      <File Path="$PPRDIR/../../../Download/CNN-Implementation-in-Verilog-master/CNN-Implementation-in-Verilog-master/pyTorch/mnist_cnn/conv2_weight_22.txt"/>
+      <File Path="$PPRDIR/../../../Download/CNN-Implementation-in-Verilog-master/CNN-Implementation-in-Verilog-master/pyTorch/mnist_cnn/conv2_weight_33.txt"/>
+      <File Path="$PPRDIR/../../../Download/CNN-Implementation-in-Verilog-master/CNN-Implementation-in-Verilog-master/pyTorch/mnist_cnn/conv1_bias.txt"/>
+      <File Path="$PPRDIR/../../../Download/CNN-Implementation-in-Verilog-master/CNN-Implementation-in-Verilog-master/pyTorch/mnist_cnn/conv1_weight_1.txt"/>
+      <File Path="$PPRDIR/../../../Download/CNN-Implementation-in-Verilog-master/CNN-Implementation-in-Verilog-master/pyTorch/mnist_cnn/conv2_weight_31.txt"/>
+      <File Path="$PPRDIR/../../../Download/CNN-Implementation-in-Verilog-master/CNN-Implementation-in-Verilog-master/pyTorch/mnist_cnn/conv1_weight_3.txt"/>
+      <File Path="$PPRDIR/../../../Download/CNN-Implementation-in-Verilog-master/CNN-Implementation-in-Verilog-master/pyTorch/mnist_cnn/fc_in_value.txt"/>
+      <File Path="$PPRDIR/../../../Download/img.txt"/>
+      <File Path="$PSRCDIR/sim_1/new/pynq_z2.xdc">
+        <FileInfo SFType="Verilog">
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
         <Option Name="TopModule" Val="top_tb"/>
@@ -233,6 +310,14 @@
     </FileSet>
     <FileSet Name="utils_1" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
       <Filter Type="Utils"/>
+      <File Path="$PSRCDIR/utils_1/imports/synth_1/top_tb.dcp">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedInSteps" Val="synth_1"/>
+          <Attr Name="AutoDcp" Val="1"/>
+        </FileInfo>
+      </File>
       <Config>
         <Option Name="TopAutoSet" Val="TRUE"/>
       </Config>
@@ -257,7 +342,7 @@
     </Simulator>
   </Simulators>
   <Runs Version="1" Minor="22">
-    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7z020clg400-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="true" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/synth_1" ParallelReportGen="true">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7z020clg400-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="true" IncrementalCheckpoint="$PSRCDIR/utils_1/imports/synth_1/top_tb.dcp" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/synth_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2025"/>
         <Step Id="synth_design"/>

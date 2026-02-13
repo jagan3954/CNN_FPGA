@@ -1,13 +1,46 @@
-# Vivado generated folders
+# -----------------------------
+# Vivado Generated Directories
+# -----------------------------
+*.runs/
+*.sim/
 *.cache/
 *.hw/
 *.ip_user_files/
-*.sim/
 
-# Logs
+# -----------------------------
+# Vivado Logs & Reports
+# -----------------------------
 *.log
 *.jou
 *.str
+*.pb
+*.rpt
+*.rpx
+*.wdb
+*.vds
+*.dcp
 
-# Temp files
+# -----------------------------
+# Temporary / OS Files
+# -----------------------------
 *.tmp
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# XSIM / Simulation Artifacts
+# -----------------------------
+xsim.dir/
+*.wcfg
+*.vcd
+*.xml
+
+# -----------------------------
+# Generated Bitstreams
+# -----------------------------
+*.bit
+*.bin
+*.ltx
