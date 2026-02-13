@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7z020clg400-1" LaunchTime="1770955493">
+<GenRun Id="impl_1" LaunchPart="xc7z020clg400-1" LaunchTime="1770961085">
   <File Type="REPORTS-TCL" Name="cnn_top_reports.tcl"/>
-  <File Type="ROUTE-PWR-SUM" Name="cnn_top_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-SUM" Name="top_tb_power_summary_routed.pb"/>
   <File Type="BITSTR-MMI" Name="cnn_top.mmi"/>
-  <File Type="OPT-DRC" Name="cnn_top_drc_opted.rpt"/>
+  <File Type="OPT-DRC" Name="top_tb_drc_opted.rpt"/>
   <File Type="BG-DRC" Name="cnn_top.drc"/>
-  <File Type="ROUTE-STATUS-PB" Name="cnn_top_route_status.pb"/>
+  <File Type="ROUTE-STATUS-PB" Name="top_tb_route_status.pb"/>
   <File Type="BG-BGN" Name="cnn_top.bgn"/>
-  <File Type="PLACE-UTIL" Name="cnn_top_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="cnn_top_utilization_placed.pb"/>
-  <File Type="PLACE-IO" Name="cnn_top_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="top_tb_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="top_tb_utilization_placed.pb"/>
+  <File Type="PLACE-IO" Name="top_tb_io_placed.rpt"/>
   <File Type="BG-BIN" Name="cnn_top.bin"/>
-  <File Type="PLACE-CTRL" Name="cnn_top_control_sets_placed.rpt"/>
-  <File Type="ROUTE-PWR-RPX" Name="cnn_top_power_routed.rpx"/>
+  <File Type="PLACE-CTRL" Name="top_tb_control_sets_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="top_tb_power_routed.rpx"/>
   <File Type="BITSTR-MSK" Name="cnn_top.msk"/>
   <File Type="BITSTR-RBT" Name="cnn_top.rbt"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="cnn_top_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-TIMING-RPX" Name="cnn_top_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-STATUS" Name="cnn_top_route_status.rpt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="top_tb_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="top_tb_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="top_tb_route_status.rpt"/>
   <File Type="PA-TCL" Name="cnn_top.tcl"/>
-  <File Type="ROUTE-PWR" Name="cnn_top_power_routed.rpt"/>
-  <File Type="ROUTE-DRC" Name="cnn_top_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-RPX" Name="cnn_top_drc_routed.rpx"/>
-  <File Type="ROUTE-DRC-PB" Name="cnn_top_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="top_tb_power_routed.rpt"/>
+  <File Type="ROUTE-DRC" Name="top_tb_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="top_tb_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="top_tb_drc_routed.pb"/>
   <File Type="BITSTR-SYSDEF" Name="cnn_top.sysdef"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="cnn_top_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="cnn_top_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="top_tb_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="top_tb_methodology_drc_routed.rpx"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
   <File Type="BITSTR-LTX" Name="cnn_top.ltx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="cnn_top_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-SIMILARITY" Name="cnn_top_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="top_tb_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-SIMILARITY" Name="top_tb_incremental_reuse_routed.rpt"/>
   <File Type="RDI-RDI" Name="cnn_top.vdi"/>
-  <File Type="ROUTE-CLK" Name="cnn_top_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW" Name="cnn_top_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="cnn_top_bus_skew_routed.rpx"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="cnn_top_bus_skew_routed.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="cnn_top_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="cnn_top_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="cnn_top_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="cnn_top_bus_skew_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="cnn_top_bus_skew_postroute_physopted.rpx"/>
+  <File Type="ROUTE-CLK" Name="top_tb_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="top_tb_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="top_tb_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="top_tb_bus_skew_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="top_tb_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="top_tb_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="top_tb_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="top_tb_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="top_tb_bus_skew_postroute_physopted.rpx"/>
   <File Type="BG-BIT" Name="cnn_top.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="cnn_top_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="top_tb_bus_skew_postroute_physopted.pb"/>
   <File Type="BITSTR-NKY" Name="cnn_top.nky"/>
   <File Type="BITSTR-BMM" Name="cnn_top_bd.bmm"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
@@ -105,7 +105,61 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../../Download/CNN-Implementation-in-Verilog-master/CNN-Implementation-in-Verilog-master/cnn_verilog/top_tb.v">
+    <File Path="$PSRCDIR/sources_1/new/4_0.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/conv2d_weight_3.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/conv1_weight_3.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/fc_bias.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/conv2d_weight_2.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/conv2_weight_33.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/7_0.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/fc_out_value.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/elaborate.log"/>
+    <File Path="$PSRCDIR/sources_1/new/conv2_weight_32.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/out_conv1_value_2.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/out_mp1_value_1.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/conv1_weight_1.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/conv2_weight_1.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/out_conv1_value_1.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/conv2_weight_2.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/conv2_weight_31.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/5_0.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/out_conv2_value_1.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/conv2d_1_weight_1.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/1_0.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/input_1000.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/out_mp1_value_2.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/out_mp2_value_2.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/conv1_weight_2.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/conv2_weight_3.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/8_0.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/conv2d_1_bias.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/out_mp2_value_1.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/out_mp2_value_3.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/conv2_weight_21.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/conv2d_bias.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/9_0.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/out_mp1_value_3.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/conv2_weight_13.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/2_0.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/compile.log"/>
+    <File Path="$PSRCDIR/sources_1/new/conv2_weight_22.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/6_0.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/conv2d_1_weight_3.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/out_conv1_value_3.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/out_conv2_value_3.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/fc_in_value.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/conv1_bias.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/conv2_weight_12.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/conv2d_1_weight_2.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/out_conv2_value_2.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/3_0.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/fc_weight.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/conv2_weight_11.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/0_0.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/conv2d_weight_1.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/conv2_bias.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/conv2_weight_23.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/CNN_top.v">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -113,7 +167,7 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/comparator_1.v">
+    <File Path="$PSRCDIR/sources_1/new/comp_f.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -176,7 +230,7 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../../Download/CNN-Implementation-in-Verilog-master/CNN-Implementation-in-Verilog-master/cnn_verilog/fully_connected.v">
+    <File Path="$PSRCDIR/sources_1/new/fully_connected_f.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -190,7 +244,7 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/CNN_top.v">
+    <File Path="$PPRDIR/../../../Download/CNN-Implementation-in-Verilog-master/CNN-Implementation-in-Verilog-master/cnn_verilog/top_tb.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -199,7 +253,7 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="cnn_top"/>
+      <Option Name="TopModule" Val="top_tb"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
