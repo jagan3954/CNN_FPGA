@@ -43,6 +43,7 @@ This project demonstrates efficient CNN inference using handcrafted RTL logic.
 ---
 
 ## 🏗️ System Architecture
+<img width="1406" height="691" alt="image" src="https://github.com/user-attachments/assets/8aeb09c9-640b-4cda-b97d-d8f66ec98d35" />
 
 The system is partitioned across the heterogeneous Zynq architecture:
 
